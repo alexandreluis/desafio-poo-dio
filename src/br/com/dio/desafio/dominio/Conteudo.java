@@ -7,6 +7,7 @@ public abstract class Conteudo {
     private String titulo;
     private String descricao;
     private NivelDeDificuldade nivelDeDificuldade;
+    private Set<Tecnologias> tecnologias = new LinkedHashSet<>();
 
     public abstract double calcularXp();
 
